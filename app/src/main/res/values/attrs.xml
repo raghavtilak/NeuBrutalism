@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="NeuBrutalism">
+        <attr name="bg_marginTop" format="dimension"/>
+        <attr name="bg_marginStart" format="dimension"/>
+        <attr name="bg_radius" format="dimension"/>
+        <attr name="fg_stroke" format="dimension"/>
+    </declare-styleable>
+</resources>
