@@ -13,6 +13,24 @@
         app:bg_radius="3dp"
         app:fg_stroke="4dp"
         android:layout_width="wrap_content"
-        android:layout_height="wrap_content"/>
+        android:layout_height="wrap_content">
+
+
+            <TextView
+                android:id="@+id/textview"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Hello"
+                android:textAlignment="center"
+                android:gravity="center"
+                android:textSize="20sp"
+                android:padding="30dp"
+                />
+<!--        <TextView-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:text="Added"/>-->
+
+    </com.raghav.neubrutalism.NeuBrutalism>
 
 </LinearLayout>
