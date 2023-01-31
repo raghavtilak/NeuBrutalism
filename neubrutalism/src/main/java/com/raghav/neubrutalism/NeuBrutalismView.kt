@@ -14,10 +14,11 @@ import android.widget.RelativeLayout
 
 class NeuBrutalismView(context: Context, attrs: AttributeSet?) : RelativeLayout(context, attrs) {
 
-    var bg_marginTop = 6
-    var bg_marginStart = 6
-    var bg_radius = 3
-    var fg_strokeWidth = 3
+    private var bg_marginTop = 6
+    private var bg_marginStart = 6
+    private var bg_radius = 3
+    private var fg_strokeWidth = 3
+
     var bg_shadowColor = Color.BLACK
         set(value) {
             field = value
@@ -25,7 +26,6 @@ class NeuBrutalismView(context: Context, attrs: AttributeSet?) : RelativeLayout(
         }
     var fg_color = Color.WHITE
     var fg_strokeColor = Color.BLACK
-
 
     private val fg = GradientDrawable()
     private val bg = GradientDrawable()
@@ -89,7 +89,7 @@ class NeuBrutalismView(context: Context, attrs: AttributeSet?) : RelativeLayout(
 
                     val params = LayoutParams(child.width, child.height)
                     params.setMargins(bg_marginStart, bg_marginTop, 0, 0)
-                    findViewById<View>(R.id.bgView).layoutParams = params
+                    bgView?.layoutParams = params
                     child.viewTreeObserver.removeOnGlobalLayoutListener(this)
                 }
             })
@@ -112,9 +112,15 @@ class NeuBrutalismView(context: Context, attrs: AttributeSet?) : RelativeLayout(
         super.addView(child, index, p)
     }
 
-    public fun setOnClickListener(onClick: () -> Unit) {
+    fun setOnClickListener(onClick: () -> Unit) {
         this.onClick = onClick
     }
 
-
+    fun setBackgroundMargins(marginTop:Int,marginStart:Int){
+        bgView?.let {
+            val params = LayoutParams(width, height)
+            params.setMargins(marginTop, marginStart, 0, 0)
+            layoutParams = params
+        }
+    }
 }

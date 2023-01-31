@@ -10,12 +10,13 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
 
-        val neubutton = findViewById<NeuBrutalismView>(R.id.neubrutview)
-
-        neubutton.setOnClickListener {
-            Log.d("TAG","Onclick")
-        }
-
-        neubutton.bg_shadowColor = Color.BLUE
+//        val neubutton = findViewById<NeuBrutalismView>(R.id.neubrutview)
+//
+//        neubutton.setOnClickListener {
+//            Log.d("TAG","Onclick")
+//        }
+//
+//        neubutton.bg_shadowColor = Color.BLUE
+//        neubutton.setBackgroundMargins(10,10)
     }
 }

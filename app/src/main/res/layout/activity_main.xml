@@ -7,43 +7,43 @@
     android:padding="20dp"
     android:orientation="vertical">
 
-    <com.raghav.neubrutalism.NeuBrutalismView
-        android:id="@+id/neubrutview"
-        app:bg_marginStart="6dp"
-        app:bg_marginTop="6dp"
-        app:bg_radius="3dp"
-        app:fg_strokeWidth="4dp"
-        app:fg_color="@color/purple_700"
-        app:fg_strokeColor="@color/purple_200"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content">
+<!--    <com.raghav.neubrutalism.NeuBrutalismView-->
+<!--        android:id="@+id/neubrutview"-->
+<!--        app:bg_marginStart="6dp"-->
+<!--        app:bg_marginTop="6dp"-->
+<!--        app:bg_radius="3dp"-->
+<!--        app:fg_strokeWidth="4dp"-->
+<!--        app:fg_color="@color/purple_700"-->
+<!--        app:fg_strokeColor="@color/purple_200"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content">-->
 
-        <LinearLayout
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:orientation="horizontal">
+<!--        <LinearLayout-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:orientation="horizontal">-->
 
-            <TextView
-                android:id="@+id/textview"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="Hello"
-                android:textAlignment="center"
-                android:gravity="center"
-                android:textSize="20sp"
-                android:padding="30dp"
-                />
+<!--            <TextView-->
+<!--                android:id="@+id/textview"-->
+<!--                android:layout_width="wrap_content"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:text="Hello"-->
+<!--                android:textAlignment="center"-->
+<!--                android:gravity="center"-->
+<!--                android:textSize="20sp"-->
+<!--                android:padding="30dp"-->
+<!--                />-->
 
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="Hello"
-                android:textAlignment="center"
-                android:gravity="center"
-                android:textSize="20sp"
-                android:padding="30dp"
-                />
-        </LinearLayout>
-    </com.raghav.neubrutalism.NeuBrutalismView>
+<!--            <TextView-->
+<!--                android:layout_width="wrap_content"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:text="Hello"-->
+<!--                android:textAlignment="center"-->
+<!--                android:gravity="center"-->
+<!--                android:textSize="20sp"-->
+<!--                android:padding="30dp"-->
+<!--                />-->
+<!--        </LinearLayout>-->
+<!--    </com.raghav.neubrutalism.NeuBrutalismView>-->
 
 </LinearLayout>
