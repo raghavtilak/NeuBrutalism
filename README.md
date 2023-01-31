@@ -2,6 +2,10 @@
 [![](https://jitpack.io/v/raghavtilak/NeuBrutalism.svg)](https://jitpack.io/#raghavtilak/NeuBrutalism)
 <br>A library to help you utilise the Simplicity & Aesthetics of Brutalism UI Design in Android. 
 
+# Demo #
+
+![neubrutalismbuttons](https://user-images.githubusercontent.com/74963954/215754716-c19e3d63-9b23-4a9b-abd6-bc2aea000710.gif)
+
 # Usage 🛠️ #
 ## Dependency #
 > Step 1. Add the JitPack repository to your build file
