@@ -84,5 +84,5 @@ class MainActivity : AppCompatActivity() {
 }
 
 ```
-## Atributes #
+## Attributes #
 <img src="https://user-images.githubusercontent.com/74963954/215800840-93c7d3a7-6e71-4105-9453-c872a07be3fc.gif" width="350" height="350"/>
