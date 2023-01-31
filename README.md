@@ -23,7 +23,7 @@
 >Step 2. Add the dependency
 ```
 	dependencies {
-	        implementation 'com.github.raghavtilak:NeuBrutalism:1.0.0'
+	        implementation 'com.github.raghavtilak:NeuBrutalism:1.0.1'
 	}
 ```
 ## Layout File #
