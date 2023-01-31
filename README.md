@@ -4,7 +4,9 @@
 
 # Demo #
 
-![neubrutalismbuttons](https://user-images.githubusercontent.com/74963954/215754716-c19e3d63-9b23-4a9b-abd6-bc2aea000710.gif)
+|Buttons|Dialog|
+|--|--|
+|![neubrutalismbuttons](https://user-images.githubusercontent.com/74963954/215754716-c19e3d63-9b23-4a9b-abd6-bc2aea000710.gif)|![neubrutalismdialog](https://user-images.githubusercontent.com/74963954/215791603-96cefdca-2a65-4983-9798-d9336a800aaf.gif)|
 
 # Usage 🛠️ #
 ## Dependency #
