@@ -8,5 +8,6 @@
         <attr name="bg_shadowColor" format="color"/>
         <attr name="fg_strokeColor" format="color"/>
         <attr name="fg_color" format="color"/>
+        <attr name="pressable" format="boolean"/>
     </declare-styleable>
 </resources>

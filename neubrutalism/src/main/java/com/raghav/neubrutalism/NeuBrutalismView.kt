@@ -14,10 +14,16 @@ import android.widget.RelativeLayout
 
 class NeuBrutalismView(context: Context, attrs: AttributeSet?) : RelativeLayout(context, attrs) {
 
-    private var bg_marginTop = 6
-    private var bg_marginStart = 6
-    private var bg_radius = 3
-    private var fg_strokeWidth = 3
+    var bg_marginTop = 6
+        private set
+    var bg_marginStart = 6
+        private set
+    var bg_radius = 3
+        private set
+    var fg_strokeWidth = 3
+        private set
+    var pressable = true
+        private set
 
     var bg_shadowColor = Color.BLACK
         set(value) {
@@ -47,6 +53,7 @@ class NeuBrutalismView(context: Context, attrs: AttributeSet?) : RelativeLayout(
         bg_shadowColor = a.getColor(R.styleable.NeuBrutalismView_bg_shadowColor, Color.BLACK)
         fg_color = a.getColor(R.styleable.NeuBrutalismView_fg_color, Color.WHITE)
         fg_strokeColor = a.getColor(R.styleable.NeuBrutalismView_fg_strokeColor, Color.BLACK)
+        pressable = a.getBoolean(R.styleable.NeuBrutalismView_pressable, true)
         a.recycle()
     }
 
@@ -97,12 +104,16 @@ class NeuBrutalismView(context: Context, attrs: AttributeSet?) : RelativeLayout(
             child.setOnTouchListener { _, event ->
                 when (event.action) {
                     MotionEvent.ACTION_DOWN -> {
-                        child.translationX = bg_marginStart.toFloat()
-                        child.translationY = bg_marginTop.toFloat()
+                        if(pressable) {
+                            child.translationX = bg_marginStart.toFloat()
+                            child.translationY = bg_marginTop.toFloat()
+                        }
                     }
                     MotionEvent.ACTION_UP -> {
-                        child.translationX = 0f
-                        child.translationY = 0f
+                        if(pressable) {
+                            child.translationX = 0f
+                            child.translationY = 0f
+                        }
                         onClick.invoke()
                     }
                 }
@@ -112,11 +123,15 @@ class NeuBrutalismView(context: Context, attrs: AttributeSet?) : RelativeLayout(
         super.addView(child, index, p)
     }
 
+    override fun setId(id: Int) {
+        super.setId(id)
+    }
+
     fun setOnClickListener(onClick: () -> Unit) {
         this.onClick = onClick
     }
 
-    fun setBackgroundMargins(marginTop:Int,marginStart:Int){
+    fun setBackgroundMargins(marginTop: Int, marginStart: Int) {
         bgView?.let {
             val params = LayoutParams(width, height)
             params.setMargins(marginTop, marginStart, 0, 0)
