@@ -6,7 +6,9 @@
 
 |Buttons|Dialog|
 |--|--|
-|![neubrutalismbuttons](https://user-images.githubusercontent.com/74963954/215754716-c19e3d63-9b23-4a9b-abd6-bc2aea000710.gif)|![neubrutalismdialog](https://user-images.githubusercontent.com/74963954/215791603-96cefdca-2a65-4983-9798-d9336a800aaf.gif)|
+|<img src="https://user-images.githubusercontent.com/74963954/215754716-c19e3d63-9b23-4a9b-abd6-bc2aea000710.gif" width="350"/>|<img src="https://user-images.githubusercontent.com/74963954/215791603-96cefdca-2a65-4983-9798-d9336a800aaf.gif" width="350"/>|
+
+
 
 # Usage 🛠️ #
 ## Dependency #
@@ -82,3 +84,5 @@ class MainActivity : AppCompatActivity() {
 }
 
 ```
+## Atributes #
+<img src="https://user-images.githubusercontent.com/74963954/215800840-93c7d3a7-6e71-4105-9453-c872a07be3fc.gif" width="350" height="350"/>
