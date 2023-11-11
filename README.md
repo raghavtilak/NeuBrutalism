@@ -1,7 +1,8 @@
 # NeuBrutalism
 [![](https://jitpack.io/v/raghavtilak/NeuBrutalism.svg)](https://jitpack.io/#raghavtilak/NeuBrutalism)
 <br>A library to help you utilise the Simplicity & Aesthetics of Brutalism UI Design in Android. 
-
+<br>
+[!["Buy Me A Coffee"](https://www.buymeacoffee.com/assets/img/custom_images/orange_img.png)](https://www.buymeacoffee.com/raghavtilak)
 # Demo #
 
 |Buttons|Dialog|
